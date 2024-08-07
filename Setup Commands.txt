@@ -1,0 +1,18 @@
+python --version
+pip --version
+pip install virtualenv
+cd <path>
+python -m virtualenv env
+cd env/
+cd Scripts
+activate
+cd..
+cd..
+pip install Django
+python
+import django
+django.__version__
+ctrl Z
+django-admin startproject <projectname>
+cd <projectname>
+code .
